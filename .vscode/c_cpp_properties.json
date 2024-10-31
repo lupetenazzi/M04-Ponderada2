@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cppStandard": "c++23",
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "compilerArgs": [
+                "-nostdinc++",
+                "-m32",
+                "--sysroot <arg>",
+                "\"--sysroot\", \"<arg>\""
+            ]
+        }
+    ],
+    "version": 4
+}
